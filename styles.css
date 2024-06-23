@@ -59,7 +59,7 @@ section:nth-child(even) {
 /* Home Section with Parallax */
 #home {
   background: url('background.jpg') no-repeat center center/cover;
-  color: #fff;
+  color: #000;
   height: 100vh;
   display: flex;
   align-items: center;
