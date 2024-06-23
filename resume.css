@@ -4,9 +4,10 @@
   padding: 0;
 }
 
-body {
+body, html {
   font-family: Arial, sans-serif;
   overflow-x: hidden; /* Prevent horizontal overflow */
+  width: 100%; /* Ensure the body and html take full width */
 }
 
 header {
@@ -17,10 +18,12 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 100%; /* Ensure header takes full width */
 }
 
 header h1, header p {
   margin: 0;
+  padding: 0 10px; /* Add padding to avoid overflow from text */
 }
 
 main {
@@ -29,11 +32,12 @@ main {
   background: white;
   border-radius: 25px 25px 0 0;
   box-shadow: 0 -5px 15px rgba(0, 0, 0, 0.1);
-  overflow-x: hidden; /* Prevent horizontal overflow */
+  width: 100%; /* Ensure main takes full width */
 }
 
 section {
   margin-bottom: 40px;
+  padding: 0 15px; /* Add padding to avoid overflow from content */
 }
 
 footer {
@@ -41,4 +45,5 @@ footer {
   color: white;
   text-align: center;
   padding: 15px 0;
+  width: 100%; /* Ensure footer takes full width */
 }
