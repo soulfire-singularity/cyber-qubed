@@ -3,7 +3,7 @@ $(document).ready(function() {
   
   new Typed('#typed', {
     strings: ["Ethan Norman"],
-    typeSpeed: 50,
+    typeSpeed: 100,
     backSpeed: 25,
     loop: false,
     showCursor: false
