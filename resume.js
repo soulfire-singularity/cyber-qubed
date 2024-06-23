@@ -1,4 +1,6 @@
 $(document).ready(function() {
+  AOS.init();
+  
   $('form').on('submit', function(event) {
     event.preventDefault();
     const name = $('#name').val();
