@@ -1,6 +1,14 @@
 $(document).ready(function() {
   AOS.init();
   
+  new Typed('#typed', {
+    strings: ["Ethan Norman"],
+    typeSpeed: 50,
+    backSpeed: 25,
+    loop: false,
+    showCursor: false
+  });
+  
   $('form').on('submit', function(event) {
     event.preventDefault();
     const name = $('#name').val();
