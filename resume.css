@@ -1,6 +1,12 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 body {
   font-family: Arial, sans-serif;
-  overflow-x: hidden;
+  overflow-x: hidden; /* Prevent horizontal overflow */
 }
 
 header {
@@ -23,6 +29,7 @@ main {
   background: white;
   border-radius: 25px 25px 0 0;
   box-shadow: 0 -5px 15px rgba(0, 0, 0, 0.1);
+  overflow-x: hidden; /* Prevent horizontal overflow */
 }
 
 section {
@@ -32,4 +39,6 @@ section {
 footer {
   background: #343a40;
   color: white;
+  text-align: center;
+  padding: 15px 0;
 }
