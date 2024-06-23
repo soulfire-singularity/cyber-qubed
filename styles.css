@@ -134,6 +134,11 @@ section:nth-child(even) {
 #contact form .btn-primary:hover {
   background-color: #0056b3;
 }
+/* Social media links */
+#contact .text-center a {
+  color: #333;
+  transition: color 0.3s ease;
+}
 
 /* Footer styles */
 footer {
