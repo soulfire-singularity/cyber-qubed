@@ -1,0 +1,35 @@
+body {
+    font-family: 'Arial', sans-serif;
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    background: rgba(255, 255, 255, 0.8);
+}
+
+.parallax-section {
+    background: url('parallax-image.jpg') no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+#blog {
+    padding-top: 60px;
+}
+
+#contact {
+    padding-top: 60px;
+}
+
+.card {
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
