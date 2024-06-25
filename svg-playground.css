@@ -5,7 +5,7 @@
   75%  {left:0px; top:200px;}
   100% {left:0px; top:0px;}
 }
-svg {
+.example {
 animation-name: example;
   animation-duration: 4s;
   animation-iteration-count: 3;
